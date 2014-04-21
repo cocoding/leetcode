@@ -16,7 +16,7 @@ public:
             }
             ptr = nu.find(numbers[i]);
             if(ptr==nu.end())
-            nu[numbers[i]] = i+1;    
+                nu[numbers[i]] = i+1;    
         }
         return result;
     }
